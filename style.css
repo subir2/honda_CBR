@@ -1,0 +1,8 @@
+.gray{
+    filter:grayscale(1);
+-webkit-filter:grascale;
+}
+.word{
+    color: sandybrown;
+    
+}
