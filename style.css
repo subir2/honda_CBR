@@ -1,3 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-name{
+    color:#23A6F0;
+}
+.star{
+ color:gold;
+}
 .gray{
     filter:grayscale(1);
 -webkit-filter:grascale;
@@ -6,3 +19,70 @@
     color: sandybrown;
     
 }
+.background{
+    background-color: silver;
+}
+
+
+.form-bg {
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    padding: 20px;
+    background-color:navajowhite;
+}
+
+.form {
+    background-color:navajowhite;
+    padding: 20px
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+.form-control {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #61615e;
+    background: transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+button.btn {
+    display: block;
+    padding: 11px 32px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 30px 0px
+}
+
+.btn-blue {
+    background-color: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4
+}
+
+.about{
+  
+background:#F0F8FF;
+}
+.text-custom{
+    font-size: 45px;
+    color: #0062ff !important;
+    }

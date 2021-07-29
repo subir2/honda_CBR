@@ -7,6 +7,14 @@
       <!-- bootstrap stylesheet -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+     
        <!-- custom styles -->
     <link rel="stylesheet" href="style.css">
     <title>Bike CBR</title>
@@ -15,15 +23,47 @@
     
     <header>
 
-        <section class="bg-warning container-fluid ">
+        <!-- header start -->
+    <header>
+      
+
+        <section class="bg-warning container-fluid">
         <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
             <div class="col-lg-7">
          <p>Computer-controlled digital transistorized with electronic advance</p>
-         <h2>Honda CBR 300R</h2>
+         <h1 style="font-weight: 600;color:azure">Honda CBR 300R</h1>
          <p>Amet minim mollit non deserunt ullamco est sit aliqua 
             dolor do amet sint. Velit officia consequat duis enim velit 
             mollit. Exercitation veniam consequat sunt nostrud amet</p>
-            <button type="button" class="btn btn-danger">Danger</button>
+            <div class="container-fluid">
+               
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Purchase
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Hi Bike Lover Welcome To our Website</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              
 
         </div>
         <div class="col-lg-5">
@@ -95,8 +135,18 @@
                                     
                                     goal for the month and year</p>
 
-                                <p class="text-center">Regina Miles</p>
-                                <p class="text-center">Banker</p>
+                                    <div class="d-flex justify-content-center" >
+                                      <i class="fas fa-star star "></i>
+                                      <i class="fas fa-star star"></i>
+                                      <i class="fas fa-star star"></i>
+                                      <i class="fas fa-star star"></i>
+                                      <i class="fas fa-star star"></i>
+                                    </div>
+                                    <br>
+
+                                <p class="text-center text-name">Regina Miles</p>
+                                <br>
+                                <h4 class="text-center">Banker</h4>
 
                             </div>
                             <div class="m-3">
@@ -117,8 +167,17 @@
                                     
                                     goal for the month and year</p>
 
-                                <p class="text-center">Regina Miles</p>
-                                <p class="text-center">Banker</p>
+                                   <div class="d-flex justify-content-center" >
+                                    <i class="fas fa-star star "></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                  <br>
+                                <p class="text-center text-name">Elite Das Gupta</p>
+                                <br>
+                                <h4 class="text-center">Nurse</h4>
 
                             </div>
                             <div class="m-3">
@@ -139,8 +198,17 @@
                                     
                                     goal for the month and year</p>
 
-                                <p class="text-center">Regina Miles</p>
-                                <p class="text-center">Banker</p>
+                                    <div class="d-flex justify-content-center" >
+                                      <i class="fas fa-star star "></i>
+                                      <i class="fas fa-star star"></i>
+                                      <i class="fas fa-star star"></i>
+                                      <i class="fas fa-star "></i>
+                                      <i class="fas fa-star"></i>
+                                    </div>
+                                    <br>
+                                <p class="text-center text-name">Mr.Lee</p>
+                                <br>
+                                <h4 class="text-center">Software Engineer</h4>
 
                             </div>
                             <div class="m-3">
@@ -153,7 +221,7 @@
 
 <!-- accrodian sectio -->
 
-
+<h1 class="text-center my-5">Frequently Asked  <span class="word">Questions</span></h1>
 <section class="container ">
     <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
         <div class="col-lg-5">
@@ -167,7 +235,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    What are the most important things I should know about riding a bike?
+                   <p style="font-size: 2rem;">What are the most important things I should know about riding a bike?</p> 
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -182,24 +250,24 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  <p style="font-size: 2rem;">What are the most important things I should know about CBR?</p>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  The updated model comes with a much more aggressive bodywork similar to the Honda CBR250RR. It also gets a more premium Showa SFF-BP inverted front fork and a rear monoshock. Interestingly, apart from providing a more sophisticated damping, the front fork isn’t preload-adjustable like the
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                  <p style="font-size: 2rem;">What are the most important things I should know about R15?</p>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  The original supersport is back! Born of Yamaha’s racing DNA that shaped legends like M1, The R1 and the R-series, the all-new YZF R15 powered with Dual Channel ABS is max powerhouse of 18.6 PS that brings track experience to the streets.
                 </div>
               </div>
             </div>
@@ -212,14 +280,191 @@
     </div>
 </section>
 
+<!-- image slider carousel-->
+<h1 class="text-center my-5">Choose Your   <span class="word">Bike</span></h1>
+<section class="container background my-5">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                  <div class="col-lg-7">
+                      <h1>Cool Dude Headphone
+                      </h1>
+                      <p>This is the best headphone in the world for people who just want to waste time in
+                          front of funky world.</p>
+                      <h1>$420</h1>
+                      <button class="panda-btn-buy-now btn text-center btn-blue">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                      <img src="images/bike-4.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                  <div class="col-lg-7">
+                      <h1>Mega LCD TV For Sports
 
+                      </h1>
+                      <p>This is the best headphone in the world for people who just want to waste time in
+                          front of funky world.</p>
+                      <h1>$420</h1>
+                      <button class="panda-btn-buy-now btn text-center btn-blue">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                      <img src="images/bike-7-removebg-preview.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
+                  <div class="col-lg-7">
+                      <h1>X-Box for your living room
+
+                      </h1>
+                      <p>This is the best headphone in the world for people who just want to waste time in
+                          front of funky world.</p>
+                      <h1>$600</h1>
+                      <button class="panda-btn-buy-now btn text-center btn-blue">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                      <img src="images/bike-4.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+</section>
+
+<!-- contact us -->
+<h1 class="text-center my-5">Contact   <span class="word">Us</span></h1>
+<div class="form4 top">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-7 col-md-offset-2">
+              <div class="form-bg">
+                  <form class="form">
+                      <div class="form-group"> <label class="sr-only">Name</label> <input type="text" class="form-control" required="" id="nameNine" placeholder="Your Name"> </div>
+                      <div class="form-group"> <label class="sr-only">Email</label> <input type="email" class="form-control" required="" id="emailNine" placeholder="Email Address"> </div>
+                      <div class="form-group"> <label class="sr-only">Name</label> <textarea class="form-control" required="" rows="7" id="messageNine" placeholder="Write message"></textarea>
+                       </div> <button type="submit" class="btn text-center btn-blue">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
               
+    <!-- about section -->
 
-
-
-
-    </main>
-
+   
+  
+    <div class="container about my-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 opt-sm-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                    <img src="images/3.jfif" class="img-fluid" alt="Image" />
+                                    <div class="img-overlay bg-dark"></div>
+                                </div>
+                            </div>
+                            <!--end col-->
+    
+                            <div class="col-12">
+                                <div class="mt-4 pt-2 text-right">
+                                    <a href="#" class="btn btn-info">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+    
+                    <div class="col-lg-6 col-md-6 col-6">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                    <img src="images/2.jfif" class="img-fluid" alt="Image" />
+                                    <div class="img-overlay bg-dark"></div>
+                                </div>
+                            </div>
+                            <!--end col-->
+    
+                            <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                    <img src="images/1.jfif" class="img-fluid" alt="Image" />
+                                    <div class="img-overlay bg-dark"></div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end col-->
+    
+            <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
+                <div class="section-title ml-lg-5">
+                    <h5 class="text-custom font-weight-normal mb-3">About Us</h5>
+                    <h4 class="title mb-4">
+                        Our mission is to <br />
+                        make your life easier.
+                    </h4>
+                    <p class="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit quod debitis praesentium pariatur temporibus ipsa, cum quidem obcaecati sunt?</p>
+    
+                    <div class="row">
+                        <div class="col-lg-6 mt-4 pt-2">
+                            <div class="media align-items-center rounded shadow p-3">
+                              <img src="images/feature-bike.jpg" class="w-25">
+                                <h4 class="ml-3 mb-0"><a href="#" class="text-dark">Bike Service</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4 pt-2">
+                            <div class="media align-items-center rounded shadow p-3">
+                              <img src="images/header-bike.png" class="w-25">
+                                <h4 class="ml-3 mb-0"><a href="#" class="text-dark">Free Deliver</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4 pt-2">
+                            <div class="media align-items-center rounded shadow p-3">
+                              <img src="images/bike-7.png" class="w-25">
+                                <h4 class="ml-3 mb-0"><a href="#" class="text-dark">Support</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-4 pt-2" >
+                            <div class="media align-items-center rounded shadow p-3">
+                              <img src="images/bike-4.png" class="w-25">
+                                <h4 class="ml-3 mb-0" ><a href="#" class="text-dark">Free Biker Training</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--enr row-->
+    </div>
+     <!-- footer section -->
+    <footer class="mt-5 text-center">
+      <p style="font-size: 20px;">©2021 Copyright Shawon Sarker</p>
+  </footer>
+<!-- Footer -->
 
        <!-- bootstrap Script -->
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
